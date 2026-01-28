@@ -1,0 +1,21 @@
+# سادہ کیلکولیٹر
+print("--- خوش آمدید ---")
+num1 = float(input("پہلا نمبر لکھیں: "))
+num2 = float(input("دوسرا نمبر لکھیں: "))
+
+print("عمل منتخب کریں: +, -, *, /")
+op = input("آپ کیا کرنا چاہتے ہیں؟ ")
+
+if op == "+":
+    print(f"جواب: {num1 + num2}")
+elif op == "-":
+    print(f"جواب: {num1 - num2}")
+elif op == "*":
+    print(f"جواب: {num1 * num2}")
+elif op == "/":
+    if num2 != 0:
+        print(f"جواب: {num1 / num2}")
+    else:
+        print("غلطی: آپ صفر (0) سے تقسیم نہیں کر سکتے۔")
+else:
+    print("غلط علامت منتخب کی گئی ہے۔")
