@@ -1,4 +1,4 @@
-# سادہ کیلکولیٹر
+// Just a basic calculator.
 print("--- خوش آمدید ---")
 num1 = float(input("پہلا نمبر لکھیں: "))
 num2 = float(input("دوسرا نمبر لکھیں: "))
