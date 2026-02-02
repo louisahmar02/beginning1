@@ -1,3 +1,4 @@
+// English basic calculator
 
 print("--- Welcome ---")
 num1 = float(input("Enter the first number: "))
