@@ -8,7 +8,7 @@ num2 = float(input("Enter second number: "))
 print("Operations: +, -, *, /")
 operation = input("Choose an operation: ")
 
-# Calculation logic
+//# Calculation logic
 if operation == "+":
     print(f"Result: {num1 + num2}")
 elif operation == "-":
