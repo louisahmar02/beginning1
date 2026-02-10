@@ -1,4 +1,3 @@
-//# Simple Calculator
 print("--- Welcome to the Calculator ---")
 
 //# Taking input from the user
